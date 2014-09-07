@@ -1,6 +1,6 @@
 # Kanban process for Issue Tracking
 
-Here we are using a simple Kanban process with Github issue tracking.  Inspiration for this comes from [this blog article](http://www.ianbicking.org/blog/2014/03/use-github-issues-to-organize-a-project.html).
+Here we are using a simple Kanban process with Github issue tracking.  Inspiration for this comes from [this blog article](http://www.ianbicking.org/blog/2014/03/use-github-issues-to-organize-a-project.html).  A great into and howto for Kanban is [Kanban vs. Scrum - making the most of both](http://www.infoq.com/minibooks/kanban-scrum-minibook).
 
 We are using "Milestones" as the different Kanban stages:
 
