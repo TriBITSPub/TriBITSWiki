@@ -1,9 +1,3 @@
-# TriBITS
+# TriBITS GitHub Site Info
 
-## Documentation
-
-See [Version Controlled TriBITS Documentation on Github](http://htmlpreview.github.io/?https://raw.githubusercontent.com/TriBITSPub/TriBITS/master/doc/index.html)
-
-See [Version Controlled TriBITS Documentation locally](../../blob/master/doc/index.html)
-
-
+This GitHub site uses a simple [Kanban process for Issue Tracking](https://github.com/TriBITSPub/TriBITS/wiki/Kanban-Process-for-Issue-Tracking).
