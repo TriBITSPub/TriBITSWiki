@@ -2,12 +2,12 @@ Here we are using a simple Kanban process with Github issue tracking.  Inspirati
 
 We are using "Milestones" as the different Kanban stages:
 
-* 1_backlog : Issues we will do some day hopefully
-* 2_selected : Issues we will do next once we have enough free capacity [Limited to 4 items]
-* 3_in_progress: Issues we are actively working one [Limited to 4 items]
-* 4_in_review: Issues that are complete but need to be reviewed or are in review [Limited to 4 items]
-* 5_ready_to_deploy: Issues that are complete and reviewed but have not been deployed to the customer yet.
-* 6_deployed: Issues have been completed and are providing real value to the customer.
+* [1_backlog](https://github.com/TriBITSPub/TriBITS/milestones/1_backlog) : Issues we will do some day hopefully
+* [2_selected](https://github.com/TriBITSPub/TriBITS/milestones/2_selected) : Issues we will do next once we have enough free capacity [Limited to 4 items]
+* [3_in_progress](https://github.com/TriBITSPub/TriBITS/milestones/3_in_progress): Issues we are actively working one [Limited to 4 items]
+* [4_in_review](https://github.com/TriBITSPub/TriBITS/milestones/4_in_review): Issues that are complete but need to be reviewed or are in review [Limited to 4 items]
+* [5_ready_to_deploy](https://github.com/TriBITSPub/TriBITS/milestones/5_ready_to_deploy): Issues that are complete and reviewed but have not been deployed to the customer yet.
+* [6_deployed](https://github.com/TriBITSPub/TriBITS/issues?utf8=%E2%9C%93&q=is%3Aclosed): Issues have been completed and are providing real value to the customer.
 
 A new issue that is created is in limbo until it is moved into either 1_backlog, 2_selected, or 3_in_progress.  An issue is not acknowledged until it is assigned to one of these "milestone" categories.
 
