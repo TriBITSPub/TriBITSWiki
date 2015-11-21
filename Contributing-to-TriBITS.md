@@ -1,5 +1,7 @@
 Contributions to TriBITS are welcomed.  However, there are some requirements that every contribution needs to follow before it can be integrated into the main development branch of TriBITS and there is a recommended process for suggesting and submitted proposed changes.
 
+**NOTE:** All contributions that are submitted are assumed to be given under the **[3-clause BSD-like TriBITS License](https://github.com/TriBITSPub/TriBITS/blob/master/tribits/Copyright.txt).**
+
 ## Requirements for every change to TriBITS
 
 1. Any change in behavior or new behavior needs to be accompanied with **automated tests** to define and protect these changes.  If automated tests are not possible or too difficult, this can be discussed in the Github Issue or Pull-Request (see below).
@@ -24,6 +26,4 @@ The process for contributing to TriBITS is as follows:
 3. A **Code review process is performed** by the TriBITS Maintainer and continued changes are made by the TriBITS Developer and new comments are created in the new PR or the original Issue (whatever makes sense but usually comments specific to changes in a given PR should should go in PR comments while more general comments not specific to a PR should go into the associated GitHub Issue).  New updates to the branch can be pushed by the TriBITS Developer as changes are made to address issues with the changes.
 4. The TriBITS maintainer will then **either accept the PR** (by rebasing and merging the branch to main development branch) **or will state what further issues must be resolved** before the change can be incorporated.
 
-NOTES:
-* All contributions that are submitted are assumed to be given under the **[3-clause BSD-like TriBITS License](https://github.com/TriBITSPub/TriBITS/blob/master/tribits/Copyright.txt).**
-* Very simple changes can but attached to a GitHub Issue using `git format-patch` but the above process involving pull requests is preferred.  But **generally raw patches will not be accepted** due to the added difficulty for the TriBITS Maintainer to review review the changes and to eventually apply them to the TriBITS 'master' branch itself.
+**NOTE:** Very simple changes can but attached to a GitHub Issue using `git format-patch` but the above process involving pull requests is preferred.  But **generally raw patches will not be accepted** due to the added difficulty for the TriBITS Maintainer to review review the changes and to eventually apply them to the TriBITS 'master' branch itself.
