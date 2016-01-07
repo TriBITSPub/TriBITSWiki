@@ -9,6 +9,8 @@ We are using "Milestones" as the different Kanban stages:
 * [5_ready_to_deploy](https://github.com/TriBITSPub/TriBITS/milestones/5_ready_to_deploy): Issues that are complete and reviewed but have not been deployed to the customer yet.
 * [6_deployed](https://github.com/TriBITSPub/TriBITS/issues?utf8=%E2%9C%93&q=is%3Aclosed): Issues have been completed and are providing real value to the customer.
 
+See [TriBITS Milestones](https://github.com/TriBITSPub/TriBITS/milestones) for listing of Kanban Stages.
+
 A new issue that is created is in limbo until it is moved into either 1_backlog, 2_selected, or 3_in_progress.  An issue is not acknowledged until it is assigned to one of these "milestone" categories.
 
 The intended Kanban process lifecycle is as follows:
