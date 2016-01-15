@@ -28,6 +28,6 @@ To request to subscribe to one of the above Google Group email lists, perform th
 
 5. An email is sent stating that your request was approved and you are now subscribed.
 
-**NOTE:** With Google Groups, you can subscribe to a list but then change your local preferences to only get daily summaries or not get emails at all.  But by being a member of the list, you can view the posts to the list.  (But you might need to subscribe you GMail account to change this.)
+**NOTE:** With Google Groups, you can subscribe to a list but then change your local preferences to only get daily summaries or not get emails at all.  But by being a member of the list, you can view the posts to the list.  If you don't subscribe your GMail account then you can send a request to `tribits-developers` to make this change.
 
 **WARNING:** If the email account that you send the subscription request from is associated with you Google GMail account in any way (e.g. as a backup email address), then the list emails may go to your GMail account and not the email account to tried to subscribe from!  For for information, see [here](http://thisfred.blogspot.com/2009/02/subscribing-to-google-groups-with-non.html).
