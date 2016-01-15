@@ -1,6 +1,6 @@
 ###  Google Groups Email Lists
 
-TriBITS has three email lists on Google Groups (i.e. `<list-name>@googlegroups.com`):
+TriBITS has the following email lists on Google Groups (i.e. `<list-name>@googlegroups.com`):
 * `tribits-users`
   - Allows anyone to post questions about the usage of TriBITS
   - Anyone can join and get emails when a new post is submitted
@@ -18,20 +18,12 @@ TriBITS has three email lists on Google Groups (i.e. `<list-name>@googlegroups.c
 
 To request to subscribe to one of the above Google Group email lists, perform the following procedure:
 
-1. Send email to `<mail-list>+subscribe@googlegroups.com`
+1. Send email to `<mail-list>+subscribe@googlegroups.com`.
 
-2. When a confirmation email is sent back, simply reply to the email (do **not** click "Join this Group")
+2. When a confirmation email is sent back, simply reply to the email (do **not** click "Join this Group").
 
-3. Send email to `tribits-developers@googlegroups.com` stating stating that you sent a subscription reqeust to become a member (NOTE: This is needed because Google Groups will not send a notification email that you requested to subscribe to the list.)
+3. Send an email to `tribits-developers@googlegroups.com` stating that you sent a subscription request to become a member and provide a short justification for why you should be added as a member to the list (NOTE: This is needed because Google Groups will not send a notification email to the list owner).
 
-4. The list owner (who is a member of `tribits-developers`) will approve the request on Google Groups site (This is listed under "Members"->"Join Requests").
+4. The list owner (who is a member of `tribits-developers`) will review the request and, if approved, will finalize the subscription (This is listed under "Members"->"Join Requests").
 
-5. You will an email stating that your request was approved and you are now subscribed.
-
-
-
-
-
-
-
-
+5. An email is sent stating that your request was approved and you are now subscribed.
