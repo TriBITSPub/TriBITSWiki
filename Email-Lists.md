@@ -18,7 +18,7 @@ TriBITS has the following email lists on Google Groups (i.e. `<list-name>@google
 
 To request to subscribe to one of the above Google Group email lists, perform the following procedure:
 
-1. Send email to `<mail-list>+subscribe@googlegroups.com`.
+1. Send email to `<mail-list>+subscribe@googlegroups.com` from the email account that you want to receive the list emails from.
 
 2. When a confirmation email is sent back, simply reply to the email (do **not** click "Join this Group").
 
@@ -27,3 +27,5 @@ To request to subscribe to one of the above Google Group email lists, perform th
 4. The list owner (who is a member of `tribits-developers`) will review the request and, if approved, will finalize the subscription (This is listed under "Members"->"Join Requests").
 
 5. An email is sent stating that your request was approved and you are now subscribed.
+
+**WARNING:** If the email account that you send the subscription request from is associated with you Google GMail account in any way (e.g. as a backup email address), then the list emails may go to your GMail account and not the email account to tried to subscribe from!  For for information, see [here](http://thisfred.blogspot.com/2009/02/subscribing-to-google-groups-with-non.html).
