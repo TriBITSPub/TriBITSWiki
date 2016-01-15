@@ -1,4 +1,4 @@
-##  Google Groups Email Lists
+###  Google Groups Email Lists
 
 TriBITS has three email lists on Google Groups (i.e. `<list-name>@googlegroups.com`):
 * `tribits-users`
@@ -14,7 +14,7 @@ TriBITS has three email lists on Google Groups (i.e. `<list-name>@googlegroups.c
   - Anyone can post to the list (so that it is easy to sent using `mailx` from the checkin-test.py script from different machines).
   - Only members of the list can view the contents of the list
 
-## Subscribing to a list
+### Subscribing to a list
 
 To request to subscribe to one of the above Google Group email lists, perform the following procedure:
 
