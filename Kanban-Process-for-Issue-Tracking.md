@@ -3,10 +3,10 @@ TriBITS uses a Kanban process with Github issue tracking with the tool [waffle.i
 The Kanban stages are:
 
 * **Backlog**: Issues we will do some day hopefully
-* **Ready**: Issues we will do next once we have enough free capacity [Soft limit of 4 items]
-* **In Progress**: Issues we are actively working one [Soft limit of 4 items]
-* **In Review**: Issues that are complete but need to be reviewed or are in review [Soft limit of 4 items]
-* **Done**: Issues have been completed and are providing real value to the customer.
+* [Ready](https://github.com/TriBITSPub/TriBITS/issues?q=is%3Aopen+is%3Aissue+label%3Aready): Issues we will do next once we have enough free capacity [Soft limit of 4 items]
+* [In Progress](https://github.com/TriBITSPub/TriBITS/issues?q=is%3Aopen+is%3Aissue+label%3A%22in+progress%22): Issues we are actively working one [Soft limit of 4 items]
+* [In Review](https://github.com/TriBITSPub/TriBITS/issues?q=is%3Aopen+is%3Aissue+label%3A%22in+review%22): Issues that are complete but need to be reviewed or are in review [Soft limit of 4 items]
+* [Done](https://github.com/TriBITSPub/TriBITS/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc): Issues have been completed and are providing real value to the customer.
 
 See [TriBITS Kanban Board](https://waffle.io/TriBITSPub/TriBITS).
 
