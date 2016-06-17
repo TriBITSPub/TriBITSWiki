@@ -29,4 +29,4 @@ With those definitions in place, the recommended/preferred process for contribut
 
 **NOTE:** Very simple changes can but attached to a GitHub Issue which are generated using `git format-patch` but the above process involving pull requests is preferred.  But **generally raw patches will not be accepted** due to the added difficulty for the TriBITS Maintainer to review the changes and to eventually apply them to the TriBITS 'master' branch itself.  Also, using git commits send either through a branch in a pull-request or through `git format-patch` will record the author's contribution and give them credit for the change. 
 
-**NOTE:** The above process is just a suggested process.  What is important are the [requirements](#requirements) listed above.
+**NOTE:** The above process is just a suggested process.  What is important are the [requirements](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#requirements) listed above.
