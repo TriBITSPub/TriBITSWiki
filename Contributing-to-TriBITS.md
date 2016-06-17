@@ -6,7 +6,8 @@ Contributions to TriBITS are welcomed.  However, there are some requirements tha
 ## Requirements for every change to TriBITS
 
 1. Any change in behavior or new behavior needs to be accompanied with **automated tests** to define and protect these changes.  If automated tests are not possible or too difficult, this can be discussed in the Github Issue or Pull-Request (see below).
-2. Any new feature or change in the behavior of an existing feature must be **fully documented** before it is accepted.  This documentation is generally added to one or more of the following places:
+2. All non-trivial changes should have a **GitHub Issue created** for them and all associated commits should **list the GitHub Issue ID in the commit logs**.
+3. Any new feature or change in the behavior of an existing feature must be **fully documented** before it is accepted.  This documentation is generally added to one or more of the following places:
   1. In the implementation `*.cmake` file itself (formatted with restructuredText and pulled out automatically into the TriBITS Developers Guide, see existing examples)
   2. In the `TribitsDevelopersGuide.rst` document (under `tribits/doc/developers_guide/`)
   3. In the `TribitsBuildReferenceBody.rst` document (under `tribits/doc/build_ref/`)
