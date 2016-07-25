@@ -26,7 +26,7 @@ Contributions to TriBITS are welcomed.  However, there are some [requirements](h
 <a name="process">
 ## Preferred process for suggesting and making changes to TriBITS
 
-<a name="short_process">
+<a name="process_outline">
 ### Process Outline
 
 The steps in the preferred process for making changes to TriBITS are:
