@@ -1,4 +1,8 @@
-Contributions to TriBITS are welcomed.  However, there are some requirements that every contribution needs to follow before it can be integrated into the main development branch of TriBITS and there is a recommended process for suggesting and submitted proposed changes.
+Contributions to TriBITS are welcomed.  However, there are some [requirements](#requirements) that every contribution needs to follow before it can be integrated into the main development branch of TriBITS and there is a [recommended process](#process) for suggesting and submitted proposed changes.
+
+**Contents:**
+* [Requirements for every change to TriBITS](#requirements)
+* [Preferred process for suggesting and making changes to TriBITS](#process)
 
 **NOTE:** All contributions that are submitted are assumed to be given under the **[3-clause BSD-like TriBITS License](https://github.com/TriBITSPub/TriBITS/blob/master/tribits/Copyright.txt).**
 
@@ -12,6 +16,7 @@ Contributions to TriBITS are welcomed.  However, there are some requirements tha
   2. In the `TribitsDevelopersGuide.rst` document (under `tribits/doc/developers_guide/`)
   3. In the `TribitsBuildReferenceBody.rst` document (under `tribits/doc/build_ref/`)
 
+<a name="process"/>
 ## Preferred process for suggesting and making changes to TriBITS
 
 The following roles are mentioned on the process descriptions:
