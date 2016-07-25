@@ -56,9 +56,9 @@ With those definitions in place, the recommended/preferred process for contribut
 <a name="process_create_pull_request"/>
 2. After the proposed change is approved in the GitHub Issue by the TriBITS Maintainer, then the TriBITS Developer (which might be the Issue Reporter or the TriBITS Maintainer) should **Create a Pull-Request** performing the following steps:
 
-  1. **create a topic/feature branch** in their forked TriBITS repo,
+  1. **create a topic/feature branch** in their forked TriBITS repo (use descriptive branch name with issue ID, e.g. `some-great-feature-123`) ,
 
-  2. **create commits with logs referencing the Issue ID (e.g. `#123`)**,
+  2. **create commits with logs referencing the Issue ID** (e.g. `fix that thing (#123)`),
 
   3. **issue a [pull-request](https://help.github.com/articles/using-pull-requests/) (i.e. PR)**.
 
