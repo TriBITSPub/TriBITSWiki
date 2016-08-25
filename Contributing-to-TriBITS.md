@@ -31,10 +31,10 @@ Contributions to TriBITS are welcomed.  However, there are some [requirements](h
 
 The steps in the preferred process for making changes to TriBITS are:
 
-1. [Create GitHub Issue](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_create_issue)
-2. [Create Pull-Request](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_create_pull_request)
-3. [Perform Code Review](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_code_review)
-4. [Accept Pull-Request](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_accept_pull_request)
+1. [Create GitHub Issue](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_create_issue) (communicate about the requirements and design)
+2. [Create Pull-Request](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_create_pull_request) (each commit references the GitHub Issue ID)
+3. [Perform Code Review](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_code_review) (perhaps adding new commits to address issues)
+4. [Accept Pull-Request](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_accept_pull_request) (merge and push the branch to 'develop')
 
 The details are given in the next section.
 
