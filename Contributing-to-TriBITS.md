@@ -34,7 +34,7 @@ The steps in the preferred process for making changes to TriBITS are:
 1. [Create GitHub Issue](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_create_issue) (communicate about the requirements and design)
 2. [Create Pull-Request](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_create_pull_request) (each commit references the GitHub Issue ID)
 3. [Perform Code Review](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_code_review) (perhaps adding new commits to address issues)
-4. [Accept Pull-Request](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_accept_pull_request) (merge and push the branch to 'develop')
+4. [Accept Pull-Request](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS#process_accept_pull_request) (merge and push the branch to 'master')
 
 The details are given in the next section.
 
@@ -44,7 +44,7 @@ The details are given in the next section.
 The following roles are mentioned on the process descriptions:
 * **TriBITS Maintainer**: Individual with push rights to the main TriBITS repo (i.e. Ross Bartlett).  Must review all issues and suggested changes and accept pull-requests.
 
-* **TriBITS Developer**: Someone who knows how to built TriBITS as a project with its tests, add tests, make acceptable changes, create pull-requests, etc. but can't directly push to the main TriBITS repo branches (see the role of [TriBITS System Developer](https://tribits.org/doc/TribitsDevelopersGuide.html#tribits-developer-and-user-roles)).  This might be the Issue Reporter.
+* **TriBITS Developer**: Someone who knows how to built TriBITS as a project with its tests, add tests, make acceptable changes, create pull-requests, etc. but can't directly push to the main TriBITS github 'master' branch (see the role of [TriBITS System Developer](https://tribits.org/doc/TribitsDevelopersGuide.html#tribits-developer-and-user-roles)).  This might be the Issue Reporter.
 
 * **Issue Reporter**: A person who first reports an issue with TriBITS and would like some type of change to happen (i.e. to fix a defect, implement a new feature, etc.).  This might be a TriBITS Developer.
 
@@ -64,8 +64,10 @@ With those definitions in place, the recommended/preferred process for contribut
 
   The changes in the PR will automatically be tested using [Travis CI](https://travis-ci.org/TriBITSPub/TriBITS).  Also, the PR allows for a well managed code review (comments for each line of the change, for example).  The pull request should then reference the original GitHub Issue in a comment to link the PR to the original Issue.  (NOTE: A partial set of changes is just fine in the PR, just enough to start the code review process.)
 
+  NOTE: In some cases, the TriBITS Developer may be given access to push the topic branch directly to the main TriBITS GitHub repo and then the PR can be created from that branch.  That way, TriBITS Developers and the TriBITS Maintainer can all push new commits to that branch in a more collaborative way and have the PR Issue get updated automatically.  The TriBITS Maintainer may grant access to directly push the topic branch based on conversations that occur in the GitHub Issue.
+
 <a name="process_code_review"/>
-3. A **Code review process is performed** by the TriBITS Maintainer and continued changes are made by the TriBITS Developer and comments are added to the new PR or the original Issue (whatever makes sense but usually comments specific to changes should be added to the PR while more general comments not specific to the PR should go into the associated GitHub Issue).  New updates to the branch can be pushed by the TriBITS Developer as changes are made to address issues with the changes.
+3. A **Code review process is performed** by the TriBITS Maintainer and continued changes are made by the TriBITS Developer and comments are added to the new PR or the original Issue (whatever makes sense but usually comments specific to changes should be added to the PR while more general comments not specific to the PR should go into the associated GitHub Issue).  New updates to the branch can be pushed by the TriBITS Developer as changes are made to address issues with the changes.  (And if the topic branch is pushed to the main GitHub repo, then multiple developers can push commits as well.)
 
 <a name="process_accept_pull_request"/>
 4. The TriBITS maintainer will then **either accept the PR** (by rebasing and merging the branch to main development branch) **or will state what further issues must be resolved** before the change can be incorporated.
