@@ -11,6 +11,7 @@ TriBITS has the following email lists on Google Groups (i.e. `<list-name>@google
   - Anyone can submit emails to the list but only members to the list can read the archives.
 * `tribits-checkins`
   - Used by the TriBITS `checkin-test.py` script to log and archive info about pushes to TriBITS itself.
+  - Currently also used for testing failures sent to CDash.
   - Anyone can post to the list (so that it is easy to sent using `mailx` from the checkin-test.py script from different machines).
   - Only members of the list can view the contents of the list
 
