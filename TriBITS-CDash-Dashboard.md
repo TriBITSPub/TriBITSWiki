@@ -1,8 +1,8 @@
 The github version is currently being tested at using the [Travis CI TriBITS build](https://travis-ci.org/TriBITSPub/TriBITS) which submits results to the CDash site:
 
-* [TriBITS my.cdash.org site](http://my.cdash.org/index.php?project=TriBITS)
+* [TriBITS builds on my.cdash.org](http://my.cdash.org/index.php?project=TriBITS&display=project&showfilters=1&filtercount=1&showfilters=1&field1=buildstarttime/date&compare1=84&value1=now)
 
-All pushes to every branch in this main github repo is testing using Travis CI which submits results to that CDash site.  To see the connection between the Travis CI output and the CDash site, look for output of the form:
+All pushes to every branch in this main github repo and every PR created in this repo is testing using Travis CI which submits results to that CDash site.  To see the connection between the Travis CI output and the CDash site, look for output of the form:
 
 ```
 See results for:
