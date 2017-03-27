@@ -18,3 +18,5 @@ and the configure Trilinos with:
 ```
 
 Then one can make changes to TriBITS in the local TriBITS repo clone on a branch, and then submit that branch as a [pull request](https://github.com/tribitspub/tribits/pulls).
+
+But before making changes to TriBITS, please note and follow the process at [Contributing to TriBITS](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS).
