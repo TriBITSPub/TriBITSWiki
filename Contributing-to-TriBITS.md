@@ -13,16 +13,11 @@ Contributions to TriBITS are welcomed.  However, there are some [requirements](h
 ## Requirements for every change to TriBITS
 
 1. Any change in behavior or new behavior needs to be accompanied with **automated tests** to define and protect these changes.  If automated tests are not possible or too difficult, this can be discussed in the Github Issue or Pull-Request (see below).
-
 2. All non-trivial changes should have a **GitHub Issue created** for them and all associated commits should **list the GitHub Issue ID in the commit logs**.
-
 3. Any new feature or change in the behavior of an existing feature must be **fully documented** before it is accepted.  This documentation is generally added to one or more of the following places:
-
-  1. In the implementation `*.cmake` file itself (formatted with restructuredText and pulled out automatically into the TriBITS Developers Guide, see existing examples)
-
-  2. In the `TribitsDevelopersGuide.rst` document (under `tribits/doc/developers_guide/`)
-
-  3. In the `TribitsBuildReferenceBody.rst` document (under `tribits/doc/build_ref/`)
+  * In the implementation `*.cmake` file itself (formatted with restructuredText and pulled out automatically into the TriBITS Developers Guide, see existing examples)
+  * In the `TribitsDevelopersGuide.rst` document (under `tribits/doc/developers_guide/`)
+  * In the `TribitsBuildReferenceBody.rst` document (under `tribits/doc/build_ref/`)
 
 <a name="process">
 
@@ -61,12 +56,10 @@ With those definitions in place, the recommended/preferred process for contribut
 <a name="process_create_pull_request"/>
 
 2. After the proposed change is approved in the GitHub Issue by the TriBITS Maintainer, then the TriBITS Developer (which might be the Issue Reporter or the TriBITS Maintainer) should **Create a Pull-Request** performing the following steps:
+  * **create a topic/feature branch** in their forked TriBITS repo (use descriptive branch name with issue ID, e.g. `some-great-feature-123`) ,
+  * **create commits with logs referencing the Issue ID** (e.g. `fix that thing (#123)`),
 
-  1. **create a topic/feature branch** in their forked TriBITS repo (use descriptive branch name with issue ID, e.g. `some-great-feature-123`) ,
-
-  2. **create commits with logs referencing the Issue ID** (e.g. `fix that thing (#123)`),
-
-  3. **issue a [pull-request](https://help.github.com/articles/using-pull-requests/) (i.e. PR)**.
+  * **issue a [pull-request](https://help.github.com/articles/using-pull-requests/) (i.e. PR)**.
 
   The changes in the PR will automatically be tested using [Travis CI](https://travis-ci.org/TriBITSPub/TriBITS).  Also, the PR allows for a well managed code review (comments for each line of the change, for example).  The pull request should then reference the original GitHub Issue in a comment to link the PR to the original Issue.  (NOTE: A partial set of changes is just fine in the PR, just enough to start the code review process.)
 
