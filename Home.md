@@ -8,4 +8,4 @@ There is [CI testing](https://travis-ci.org/TriBITSPub/TriBITS) set up using a T
 
 TriBITS is subjected to continuous integration (CI) and nightly testing with a [TriBITS CDash Dashboard](https://github.com/TriBITSPub/TriBITS/wiki/TriBITS-CDash-Dashboard).
 
-See [Contributing to TriBITS](https://github.com/TriBITSPub/TriBITS/wiki/Contributing-to-TriBITS) for requirements and the recommended process for making changes to TriBITS.
+See [Contributing to TriBITS](https://github.com/TriBITSPub/TriBITS/blob/master/CONTRIBUTING.md) for requirements and the recommended process for making changes to TriBITS.
