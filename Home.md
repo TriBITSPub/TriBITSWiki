@@ -4,7 +4,7 @@ This GitHub site uses a simple [Kanban process for Issue Tracking](https://githu
 
 TriBITS has a few [email lists](https://github.com/TriBITSPub/TriBITS/wiki/Email-Lists) to enable communication between TriBITS users and developers (and to log and archive test/push actions).
 
-There is [CI testing](https://travis-ci.org/TriBITSPub/TriBITS) set up using a Travis-CI Service.
+There is [CI testing](https://travis-ci.org/TriBITSPub/TriBITS) set up using a Travis-CI Service. (**Travis CI is Currently Disabled**)
 
 TriBITS is subjected to continuous integration (CI) and nightly testing with a [TriBITS CDash Dashboard](https://github.com/TriBITSPub/TriBITS/wiki/TriBITS-CDash-Dashboard).
 
