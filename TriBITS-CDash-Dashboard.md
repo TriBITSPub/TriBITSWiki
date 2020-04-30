@@ -1,4 +1,4 @@
-**NOTE: TRAVIS CI TESTING IS CURRENTLY DISABLED**
+# NOTE: TRAVIS CI TESTING IS CURRENTLY DISABLED
 
 The github version is currently being tested at using the [Travis CI TriBITS build](https://travis-ci.org/TriBITSPub/TriBITS) which submits results to the CDash site:
 
@@ -18,3 +18,4 @@ at:
   http://testing-vm.sandia.gov/cdash/index.php?project=TriBITS&display=project
 ```
 
+# NOTE: TRAVIS CI TESTING IS CURRENTLY DISABLED
