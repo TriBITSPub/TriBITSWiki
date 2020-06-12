@@ -1,4 +1,4 @@
-# NOTE: TRAVIS CI TESTING IS CURRENTLY DISABLED
+# NOTE: TRAVIS CI TESTING IS CURRENTLY DISABLED (TO BE SWITCHED TO GITHUB ACTIONS)
 
 The github version is currently being tested at using the [Travis CI TriBITS build](https://travis-ci.org/TriBITSPub/TriBITS) which submits results to the CDash site:
 
