@@ -24,6 +24,6 @@ That is the basic Kanban process in a nutshell.
 
 NOTES:
 
-<a name="vulnerability_reports">
+<a name="vulnerability_reports"/>
 
 * There are no known mechanisms where TriBITS software could cause a vulnerability.  But if a vulnerability is suspected to be caused by TriBITS, please submit a new [GitHub Issue](https://github.com/TriBITSPub/TriBITS/issues) mentioning the possible presences of a vulnerability and someone will be in direct contact with you to get more details.
