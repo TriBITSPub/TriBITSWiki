@@ -6,6 +6,6 @@ This GitHub site uses a simple [Kanban process for Issue Tracking](https://githu
 
 TriBITS has a few [email lists](https://github.com/TriBITSPub/TriBITS/wiki/Email-Lists) to enable communication between TriBITS users and developers (and to log and archive test/push actions).
 
-There is [automated testing](https://github.com/TriBITSPub/TriBITS/actions) set up using GitHub Actions.  All of these build and test results are submitted to the [TriBITS CDash Dashboard](https://github.com/TriBITSPub/TriBITS/wiki/TriBITS-CDash-Dashboard).
+There is automated testing set up using GitHub Actions.  All of these build and test results are submitted to the [TriBITS CDash Dashboard](https://github.com/TriBITSPub/TriBITS/wiki/TriBITS-CDash-Dashboard).
 
 See [Contributing to TriBITS](https://github.com/TriBITSPub/TriBITS/blob/master/CONTRIBUTING.md) for requirements and the recommended process for making changes to TriBITS.
