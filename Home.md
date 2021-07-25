@@ -1,5 +1,7 @@
 # TriBITS GitHub Site Info
 
+General TriBITS build, user, and maintainers guides can be found on the [TriBITS GitHub Pages Site](https://tribitspub.github.io/TriBITS/) and on [tribits.org](https://tribits.org).
+
 This GitHub site uses a simple [Kanban process for Issue Tracking](https://github.com/TriBITSPub/TriBITS/wiki/Kanban-Process-for-Issue-Tracking).  Both new features and bugs should be submitted as new GitHub Issues.
 
 TriBITS has a few [email lists](https://github.com/TriBITSPub/TriBITS/wiki/Email-Lists) to enable communication between TriBITS users and developers (and to log and archive test/push actions).
