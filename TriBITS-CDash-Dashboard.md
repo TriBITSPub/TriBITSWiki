@@ -86,4 +86,4 @@ It is not too hard to match up those GitHub Actions PR testing iterations and th
 
 ### Implementation details
 
-For details on the implementation of this, see [GitHub Actions drivers](https://github.com/TriBITSPub/TriBITS/tree/master/.github/workflows), PR #389, #401, and other commits related to Issues #363 and #154.
+For details on the implementation of this, see [GitHub Actions drivers](https://github.com/TriBITSPub/TriBITS/tree/master/.github/workflows), PR [#389](https://github.com/TriBITSPub/TriBITS/pull/389), [#401](https://github.com/TriBITSPub/TriBITS/pull/401), and other commits related to Issues [#363](https://github.com/TriBITSPub/TriBITS/issues/363) and [#154](https://github.com/TriBITSPub/TriBITS/issues/154).
