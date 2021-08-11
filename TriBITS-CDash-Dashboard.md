@@ -26,6 +26,10 @@ Automated testing of TriBITS Pull Requests is currently performed using GitHub A
 
 (NOTE: The current set of builds being done may be different that what is shown above.)
 
+### Revision column on CDash build
+
+As shown above, each build on CDash includes a "Revision" field that gives the shortened Git SHA1 for the commit being tested.  In the case of a PR, this is the SHA1 for a merge commit merging the PR topic branch into the target branch (i.e. 'master').   If one clicks on that SHA1 on CDash it takes you to a CDash page like [this](https://testing.sandia.gov/cdash/viewUpdate.php?buildid=9707976) that gives the full SHA1 and is hyperlinked to the commits on GitHub.  Amazingly, GitHub stores these merge commits so they can be examined on GitHub.
+
 ### Links from CDash builds back to GitHub PR
 
 As shown above, each build on CDash shows the icon ![PR Link Icon](https://user-images.githubusercontent.com/1959736/128937363-a7f05a43-b0e0-4f62-8486-aba52dc1056f.png) that provides a link back to the PR (PR #401 in this case).
