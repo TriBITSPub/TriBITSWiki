@@ -42,9 +42,9 @@ In addition, the GitHub Actions Jobs for a PR testing iteration provide hyperlin
 
 <br>
 
-<summary>Screenshots of the GitHub Actions Job "URL to results on CDash" hyperlink</summary>
+<summary>Screenshots of the GitHub Actions Job hyperlink to results on CDash</summary>
 
-On each passing GitHub Actions testing job, there is a "URL to results on CDash" that contains a link to the results on CDash as shown below:
+On each passing GitHub Actions testing job, there is a "URL to results on CDash" that contains a link to the results on CDash as shown below for a passing job:
 
 ![Screenshot of the GitHub Actions Job "URL to results on CDash" hyperlink](https://user-images.githubusercontent.com/1959736/129061257-8aa7f806-cf4a-47a6-8d83-60fe0cb354a0.png)
 
@@ -52,7 +52,9 @@ This [hyperlink](https://testing.sandia.gov/cdash/index.php?project=TriBITS&filt
 
 ![CDash results for build pr-401_tribits_cmake-3.17.5_makefiles_python-2.7_g++-8](https://user-images.githubusercontent.com/1959736/128960748-b9b7cc3c-5d94-4f46-95de-53909cb1ddff.png)
 
-However, when there is a failure, the "URL to results on CDash" step is not run but the hyperlink to the result on CDash is provided is provided at the end of the "Run configure, build, test and submit to CDash" step.
+However, when there is a failure, the "URL to results on CDash" step is not run but the hyperlink to the result on CDash is provided is provided at the end of the "Run configure, build, test and submit to CDash" step as shown in the below screen shot for a different PR:
+
+![Screenshot of the GitHub Actions job "Run configure, build, test and submit to CDash" hyperlink for a failure](https://user-images.githubusercontent.com/1959736/129278812-343980b1-5f5e-43b4-a9d1-3ee21c6c506e.png)
 
 </details>
 
