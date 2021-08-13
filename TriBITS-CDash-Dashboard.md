@@ -16,7 +16,7 @@ TriBITS is tested for a few different versions of CMake, compilers, Python, and 
 For more details on the testing that is done, see the active [GitHub Actions drivers](https://github.com/TriBITSPub/TriBITS/tree/master/.github/workflows).
 
 * [1]: Nightly builds primarily test that underlying infrastructure to ensure that everything is working so that when PRs and pushes are done, it will work when needed. 
-* [2]: Even through each branch on a PR is tested before merging to 'master', it is still important to test when PR branches are merged to 'master' because two independent PRs that are tested at the same time can pass all of the tests independently but fail when merged together.
+* [2]: Even through each branch on a PR is tested before merging to 'master', it is still important to test when PR branches are merged to 'master' because two independent PRs that are tested at the same time can pass all of the tests independently but fail when merged together (i.e. a violation of the "additive test assumption of branches").
 
 ## GitHub Actions Pull Request Testing
 
