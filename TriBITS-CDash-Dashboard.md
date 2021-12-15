@@ -2,9 +2,11 @@
 
 TriBITs is currently being tested using  at using the [GitHub Actions](https://github.com/TriBITSPub/TriBITS/actions) with test results submitted to the CDash site:
 
-* [testing.sandia.gov/cdash/](https://testing.sandia.gov/cdash/index.php?project=TriBITS&filtercount=0&showfilters=1)
-  * [current testing day](https://testing.sandia.gov/cdash/index.php?project=TriBITS&filtercount=0&showfilters=1)
-  * [builds over last 2 weeks](https://testing.sandia.gov/cdash/index.php?project=TriBITS&display=project&filtercount=1&showfilters=1&field1=buildstarttime&compare1=83&value1=2%20weeks%20ago)
+* [testing.sandia.gov/cdash/](https://testing.sandia.gov/cdash/index.php?project=TriBITS&filtercount=0&showfilters=1) [[testing-dev](https://testing-dev.sandia.gov/cdash/index.php?project=TriBITS&filtercount=0&showfilters=1)]
+  * [current testing day](https://testing.sandia.gov/cdash/index.php?project=TriBITS&filtercount=0&showfilters=1) [[testing-dev](https://testing-dev.sandia.gov/cdash/index.php?project=TriBITS&filtercount=0&showfilters=1)]
+  * [builds over last 2 weeks](https://testing.sandia.gov/cdash/index.php?project=TriBITS&display=project&filtercount=1&showfilters=1&field1=buildstarttime&compare1=83&value1=2%20weeks%20ago) [[testing-dev](https://testing-dev.sandia.gov/cdash/index.php?project=TriBITS&display=project&filtercount=1&showfilters=1&field1=buildstarttime&compare1=83&value1=2%20weeks%20ago)]
+
+(NOTE: Above, all results are also submitted to the secondary site https://testing-dev.sandia.gov/cdash/ which is primarily used to test new CDash features as they are being developed.)
 
 TriBITS is tested for a few different versions of CMake, compilers, Python, and other variations post to the following CDash groups:
 
