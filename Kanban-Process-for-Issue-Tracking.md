@@ -23,7 +23,7 @@ The intended Kanban process lifecycle for a **TriBITS GitHub Issue** is as follo
 
 * Someone creates a new Issue as a suggestion (and it automatically is placed in the Backlog).
 * The Product Owner then takes the Issue and reviews it in the Backlog and comments on it (or closes it if justified).
-* Issues are regularly are moved into "ToDo" or "Selected" when they are high enough priority and are ready to be worked.  (We should not cram a bunch of stuff into "Selected".  We should keep that list short so that it is clear what to work on next.)
+* Issues are regularly moved into "ToDo" or "Selected" when they are high enough priority and are ready to be worked.  (We should not cram a bunch of stuff into "Selected".  We should keep that list short so that it is clear what to work on next.)
 * When adequate capacity is freed up, an Issue is moved from "Selected" to "In Progress" by the developer and it is actively worked.
 * Issues "In Progress" should be worked as quickly as possible to get them done.
 * Once an Issue "In Progress" is ready, it is moved into "In Review" so it can be reviewed by someone.  (The code related to this issue should be submitted on a branch as a pull request to allow the review.)
@@ -33,12 +33,12 @@ That is the basic Kanban Issue process in a nutshell.  The process details are g
 
 ## TriBITS Pull Request Process
 
-The Kanban lifecycle process fopr Pull Requests (PRs) follows a reduced number of Kanban stages:
+The Kanban lifecycle process for Pull Requests (PRs) follows a reduced number of Kanban stages:
 
 * A new Pull Request is automatically added to the **In Progress** stage.
 * GitHub Actions testing is performed on each push to the PR branch with results displayed on [CDash](https://github.com/TriBITSPub/TriBITS/wiki/TriBITS-CDash-Dashboard).
 * When the PR is ready to be reviewed, it is moved to the **In Review** stage and reviewers are assigned.
-* Once the PR has been reviewed and accepted, it is merged (and the associated topic branch is merged to the main development branch).
+* Once the PR has been reviewed and accepted, it is merged and moved to the **Done** stage (and the associated topic branch is merged to the main development branch).
 
 ## TriBITS Vulnerability Reports
 
