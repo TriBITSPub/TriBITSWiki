@@ -12,12 +12,12 @@ First, create a fork of the GitHub repo:
 
 to hold your topic branches.
 
-The workflow is to **first set up the local repo and remotes so the local 'master' branch is pointing to 'master' in the production repo `git@github.com/TriBITSPub/TriBITS.wiki.git`** and a remote exists for your fork `my-fork` of the TriBITSWiki repo:
+The workflow is to **first set up the local repo and remotes so the local 'master' branch is pointing to 'master' in the production repo `git@github.com:TriBITSPub/TriBITS.wiki.git`** and a remote exists for your fork `my-fork` of the TriBITSWiki repo:
 
 ```
-$ git clone -o production git@github.com/TriBITSPub/TriBITS.wiki.git TriBITSWiki
+$ git clone -o production git@github.com:TriBITSPub/TriBITS.wiki.git TriBITSWiki
 $ cd TriBITSWiki/
-$ git remote add my-fork git@github.com/<your-github-id>/TriBITSWiki.git
+$ git remote add my-fork git@github.com:<your-github-id>/TriBITSWiki.git
 ```
 
 With the above setup, the local 'master' branch will track the branch 'production/master'.
